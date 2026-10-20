@@ -1,0 +1,128 @@
+{
+  "note": "Synthetic fixture in Plaid /transactions/sync response shape (amount > 0 = money out).",
+  "accounts": [
+    {
+      "account_id": "acc_eu_checking",
+      "name": "Old EU checking",
+      "balances": {
+        "current": 42.0,
+        "iso_currency_code": "EUR"
+      }
+    }
+  ],
+  "added": [
+    {
+      "transaction_id": "fxt_spotify_0802",
+      "account_id": "acc_eu_checking",
+      "amount": 10.99,
+      "iso_currency_code": "EUR",
+      "date": "2026-08-02",
+      "datetime": "2026-08-02T06:00:00Z",
+      "name": "SPOTIFY P1A2B3",
+      "merchant_name": "Spotify",
+      "personal_finance_category": {
+        "primary": "ENTERTAINMENT",
+        "detailed": "ENTERTAINMENT_OTHER"
+      },
+      "payment_channel": "online",
+      "pending": false
+    },
+    {
+      "transaction_id": "fxt_adobe_0821",
+      "account_id": "acc_eu_checking",
+      "amount": 26.99,
+      "iso_currency_code": "EUR",
+      "date": "2026-08-21",
+      "datetime": "2026-08-21T07:00:00Z",
+      "name": "ADOBE *CREATIVE CLOUD",
+      "merchant_name": "Adobe",
+      "personal_finance_category": {
+        "primary": "GENERAL_SERVICES",
+        "detailed": "GENERAL_SERVICES_OTHER"
+      },
+      "payment_channel": "online",
+      "pending": false
+    },
+    {
+      "transaction_id": "fxt_spotify_0902",
+      "account_id": "acc_eu_checking",
+      "amount": 10.99,
+      "iso_currency_code": "EUR",
+      "date": "2026-09-02",
+      "datetime": "2026-09-02T06:00:00Z",
+      "name": "SPOTIFY P1A2B3",
+      "merchant_name": "Spotify",
+      "personal_finance_category": {
+        "primary": "ENTERTAINMENT",
+        "detailed": "ENTERTAINMENT_OTHER"
+      },
+      "payment_channel": "online",
+      "pending": false
+    },
+    {
+      "transaction_id": "fxt_overdraft_0902",
+      "account_id": "acc_eu_checking",
+      "amount": 15.0,
+      "iso_currency_code": "EUR",
+      "date": "2026-09-02",
+      "datetime": "2026-09-02T08:00:00Z",
+      "name": "OVERDRAFT FEE",
+      "merchant_name": "Overdraft fee",
+      "personal_finance_category": {
+        "primary": "BANK_FEES",
+        "detailed": "BANK_FEES_OTHER"
+      },
+      "payment_channel": "other",
+      "pending": false
+    },
+    {
+      "transaction_id": "fxt_adobe_0921",
+      "account_id": "acc_eu_checking",
+      "amount": 26.99,
+      "iso_currency_code": "EUR",
+      "date": "2026-09-21",
+      "datetime": "2026-09-21T07:00:00Z",
+      "name": "ADOBE *CREATIVE CLOUD",
+      "merchant_name": "Adobe",
+      "personal_finance_category": {
+        "primary": "GENERAL_SERVICES",
+        "detailed": "GENERAL_SERVICES_OTHER"
+      },
+      "payment_channel": "online",
+      "pending": false
+    },
+    {
+      "transaction_id": "fxt_interest_0930",
+      "account_id": "acc_eu_checking",
+      "amount": -0.02,
+      "iso_currency_code": "EUR",
+      "date": "2026-09-30",
+      "datetime": "2026-09-30T08:00:00Z",
+      "name": "INTEREST PAYMENT",
+      "merchant_name": "Interest",
+      "personal_finance_category": {
+        "primary": "INCOME",
+        "detailed": "INCOME_OTHER"
+      },
+      "payment_channel": "other",
+      "pending": false
+    },
+    {
+      "transaction_id": "fxt_spotify_1002",
+      "account_id": "acc_eu_checking",
+      "amount": 10.99,
+      "iso_currency_code": "EUR",
+      "date": "2026-10-02",
+      "datetime": "2026-10-02T06:00:00Z",
+      "name": "SPOTIFY P1A2B3",
+      "merchant_name": "Spotify",
+      "personal_finance_category": {
+        "primary": "ENTERTAINMENT",
+        "detailed": "ENTERTAINMENT_OTHER"
+      },
+      "payment_channel": "online",
+      "pending": false
+    }
+  ],
+  "has_more": false
+}

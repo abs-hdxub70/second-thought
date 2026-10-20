@@ -1,0 +1,134 @@
+{
+  "profile": {
+    "name": "Mei Lin",
+    "persona_note": "Synthetic demo persona. No real person or data.",
+    "region": "CN",
+    "base_currency": "CNY",
+    "language": "en",
+    "patterns": [
+      "late_night_impulse",
+      "forgets_subscriptions",
+      "livestream_shopping"
+    ],
+    "trigger_categories": [
+      "clothing",
+      "beauty"
+    ],
+    "payday": 10,
+    "monthly_income": 15000,
+    "work_hours_per_month": 174,
+    "accounts": [
+      {
+        "name": "CMB debit (UnionPay)",
+        "currency": "CNY",
+        "balance": 11500.0,
+        "source": "unionpay"
+      },
+      {
+        "name": "Old EU account (Plaid sandbox)",
+        "currency": "EUR",
+        "balance": 42.0,
+        "source": "plaid"
+      }
+    ],
+    "fixed_bills": [
+      {
+        "name": "Rent 房租",
+        "amount": 4200,
+        "due_day": 1
+      },
+      {
+        "name": "Electricity 电费",
+        "amount": 180,
+        "due_day": 15
+      },
+      {
+        "name": "Phone 话费",
+        "amount": 98,
+        "due_day": 18
+      }
+    ],
+    "credit_due": [
+      {
+        "name": "Huabei 花呗",
+        "amount": 1850,
+        "due_day": 9
+      }
+    ],
+    "savings_goal": {
+      "name": "Japan trip",
+      "target": 8000,
+      "monthly": 1500
+    },
+    "buffer_share": 0.1,
+    "consents": {
+      "financial_data": true,
+      "ally_alerts": true,
+      "llm_processing": false
+    }
+  },
+  "plan": {
+    "night_hold": true,
+    "night_start": "23:00",
+    "night_end": "06:00",
+    "night_hold_threshold": 300,
+    "hold_hours": 12,
+    "category_caps": {
+      "clothing": 2000
+    },
+    "blocked_categories": [
+      "gambling"
+    ],
+    "auto_save_share": 0.1,
+    "daily_sweep_cap": 100,
+    "ally": {
+      "name": "Lin (sister)",
+      "channel": "SMS",
+      "alerts": [
+        "red_flag"
+      ]
+    },
+    "ally_auto_alert": false
+  },
+  "mood_log": [
+    {
+      "ts": "2026-10-14T21:10",
+      "mood": 2,
+      "stress": 4
+    },
+    {
+      "ts": "2026-10-15T20:00",
+      "mood": 4,
+      "stress": 2
+    },
+    {
+      "ts": "2026-10-16T22:30",
+      "mood": 2,
+      "stress": 5
+    },
+    {
+      "ts": "2026-10-17T19:00",
+      "mood": 4,
+      "stress": 2
+    },
+    {
+      "ts": "2026-10-18T12:00",
+      "mood": 3,
+      "stress": 2
+    },
+    {
+      "ts": "2026-10-19T21:00",
+      "mood": 2,
+      "stress": 4
+    },
+    {
+      "ts": "2026-10-20T19:40",
+      "mood": 2,
+      "stress": 4
+    }
+  ],
+  "pots": {
+    "Japan trip": 1200.0
+  },
+  "demo_clock": "2026-10-20T23:50"
+}

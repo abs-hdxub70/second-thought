@@ -1,0 +1,60 @@
+{
+  "sandbox_ops": [
+    {
+      "op_id": "sbx-8bbf02c93f",
+      "ts": "2026-10-20T23:50",
+      "type": "internal_transfer",
+      "from": "CMB debit (UnionPay)",
+      "to": "pot:Japan trip",
+      "amount": 90.0,
+      "currency": "CNY",
+      "reason": "auto: held by calm-state plan",
+      "status": "settled (sandbox)"
+    }
+  ],
+  "drafts": [
+    {
+      "id": "95af8797",
+      "type": "cancellation",
+      "target": "喜马拉雅",
+      "created_at": "2026-10-20T23:50",
+      "en": "Hello,\n\nPlease cancel my 喜马拉雅 subscription and turn off automatic renewal from today. Please confirm by email that no further charges will be made.\n\nThank you.",
+      "zh": "您好：\n\n请取消我的「喜马拉雅」会员并关闭自动续费，从今天起不再扣款，并请回复确认。\n\n谢谢！",
+      "where_en": "In Alipay this is usually under 我的 > 设置 > 支付设置 > 免密支付/自动扣款.",
+      "where_zh": "支付宝通常在：我的 > 设置 > 支付设置 > 免密支付/自动扣款。",
+      "monthly_saving": 25.0,
+      "status": "drafted (not sent)"
+    },
+    {
+      "id": "c432dba6",
+      "type": "return",
+      "target": "无线降噪耳机（直播间专享）",
+      "created_at": "2026-10-20T23:50",
+      "deadline": "2026-10-26",
+      "days_left": 6,
+      "refund": 459.0,
+      "status": "drafted (not sent)",
+      "en": "Hello,\n\nI bought \"无线降噪耳机（直播间专享）\" on 2026-10-19 (order 4200020261019340164050116598). Under the 7-day no-reason return rule (Consumer Rights Protection Law, Art. 25) I would like to return it for a full refund. The item is unused and in its original packaging.\n\nThank you.",
+      "zh": "您好：\n\n我于 2026-10-19 购买了「无线降噪耳机（直播间专享）」（订单号 4200020261019340164050116598）。根据《消费者权益保护法》第二十五条七日无理由退货的规定，申请退货并全额退款。商品未使用，包装完好。\n\n谢谢！"
+    }
+  ],
+  "outbox": [],
+  "parking": [
+    {
+      "id": "5dc8f91e",
+      "title": "jacket from the live stream",
+      "merchant": "",
+      "amount": 899.0,
+      "currency": "CNY",
+      "amount_base": 899.0,
+      "category": "clothing",
+      "risk_score": 70,
+      "created_at": "2026-10-20T23:50",
+      "hold_until": "2026-10-21T11:50",
+      "status": "parked",
+      "reason": "night_hold",
+      "auto_saved": 90.0
+    }
+  ],
+  "pending_changes": []
+}

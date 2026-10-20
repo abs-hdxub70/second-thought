@@ -1,0 +1,19 @@
+:root { --teal: #2F6F68; --ink: #10202B; --text: #1E2B33; --muted: #5A6872; --line: #E2E4DE; --paper: #F6F4EF; --card: #FDFCF9; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--text);
+  font: 14px/1.45 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Roboto, Arial, sans-serif; }
+h1 { font-family: Georgia, "Songti SC", "Noto Serif SC", serif; font-weight: 600; color: var(--ink); font-size: 22px; margin: 0 0 4px; }
+h2 { font-size: 15px; margin: 22px 0 8px; color: var(--ink); }
+.brand { display: flex; align-items: center; gap: 8px; color: var(--teal); font-weight: 700; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.brand img { width: 20px; height: 20px; }
+.muted { color: var(--muted); font-size: 13px; }
+.box { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.big { font-size: 24px; font-weight: 700; color: var(--ink); }
+.ok { color: var(--teal); font-weight: 700; }
+.warn { color: #7A5A12; }
+label { display: block; font-size: 13px; color: var(--muted); margin: 10px 0 4px; }
+input, select { font: inherit; width: 100%; padding: 8px 10px; border: 1px solid #C9CDC6; border-radius: 8px; background: #fff; color: var(--text); }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+button { font: inherit; border-radius: 999px; padding: 8px 16px; cursor: pointer; border: 1px solid var(--teal); background: var(--card); color: var(--teal); }
+button.primary { background: var(--teal); color: #fff; font-weight: 700; }
+a { color: var(--teal); }

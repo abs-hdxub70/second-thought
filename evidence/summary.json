@@ -1,0 +1,66 @@
+{
+  "generated": "2026-10-20T15:27:54",
+  "imported": {
+    "alipay": 145,
+    "wechat": 79,
+    "unionpay": 16,
+    "plaid": 7
+  },
+  "audit_entries": 35,
+  "audit_chain_ok": true,
+  "audit_first_bad_seq": null,
+  "anchor": {
+    "entries": 35,
+    "head_hash": "ec2c18aa97354ecaab13989d11a7d51ac60a612843ca0f8906f5f3a37dfcfb7b",
+    "generated": "2026-10-20T15:27:54"
+  },
+  "pots": {
+    "Japan trip": 1290.0
+  },
+  "parking": [
+    {
+      "title": "jacket from the live stream",
+      "amount_base": 899.0,
+      "status": "parked",
+      "hold_until": "2026-10-21T11:50",
+      "reason": "night_hold"
+    }
+  ],
+  "drafts": [
+    {
+      "type": "cancellation",
+      "target": "喜马拉雅",
+      "status": "drafted (not sent)"
+    },
+    {
+      "type": "return",
+      "target": "无线降噪耳机（直播间专享）",
+      "status": "drafted (not sent)"
+    }
+  ],
+  "sandbox_operations": 1,
+  "denied_actions": 4,
+  "plan_after": {
+    "night_hold": false,
+    "night_start": "23:00",
+    "night_end": "06:00",
+    "night_hold_threshold": 300,
+    "hold_hours": 12,
+    "category_caps": {
+      "clothing": 2000
+    },
+    "blocked_categories": [
+      "gambling"
+    ],
+    "auto_save_share": 0.1,
+    "daily_sweep_cap": 100,
+    "ally": {
+      "name": "Lin (sister)",
+      "channel": "SMS",
+      "alerts": [
+        "red_flag"
+      ]
+    },
+    "ally_auto_alert": false
+  }
+}

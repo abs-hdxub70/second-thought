@@ -1,0 +1,9 @@
+extension loaded: aklnnecfnkdcflbkcgojnoilknhjjgln
+pairing: Connected · 已连接 – Mei Lin · CNY · ¥183 safe to spend today
+step 1: score 80, reasons 5: 深夜消费（23:50） +20 | 一小时内第 3 笔消费 +20 | 直播购物 +15 | 「服饰」在你的易冲动清单上 +15 | 分期或先买后付 +10
+step 2: 今天可安心花费 ¥183→−¥616 | 到发薪日（2026-11-10，还有 21 天） ¥3,844→¥3,045 每天 ¥145，原本 ¥183 | 本月「服饰」上限 · ¥2,000 ¥1,158→¥359 剩余 | 「Japan trip」 推迟 16 天
+park: 已放进等待区，10月21日 11:50 再看。 已把 ¥80 存进「Japan trip」。
+buy anyway: checkout went through after the countdown
+popup: SECOND THOUGHT · 再想想 |  | ● 已连接应用 · Mei Lin |  | 今天可安心花费 | ¥179 | 到发薪日还剩 | ¥3,764 | 等待区 | 1 |  | 购物网站的结账按钮会在付款前再问你一次。 |  | 设置与配对
+offline: 离线：未连接应用，使用扩展设置里的数字。
+audit: 3 entries via the extension, chain intact: True

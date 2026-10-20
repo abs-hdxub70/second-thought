@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Second Thought – Settings</title><link rel="stylesheet" href="ui.css">
+<style>main { max-width: 640px; margin: 0 auto; padding: 28px 20px 60px; } .box { margin-top: 8px; } #result { margin-top: 10px; }</style></head>
+<body><main>
+  <div class="brand"><img src="icons/icon32.png" alt="">Second Thought · 再想想</div>
+  <h1>Checkout Pause settings</h1>
+  <p class="muted">The extension only runs on shopping sites. It sends the price, product title and shop name to the Second Thought app on this computer, nothing else and nowhere else. 扩展只在购物网站运行，只把价格、商品名和店铺名发给本机上的「再想想」应用。</p>
+
+  <h2>Language · 语言</h2>
+  <select id="lang"><option value="auto">Automatic (from the shop) · 自动</option><option value="en">English</option><option value="zh">中文</option></select>
+
+  <h2>Connect to the app · 连接应用</h2>
+  <div class="box">
+    <p class="muted" style="margin:0">Start the app's local API with <code>python -m second_thought.extension_api</code> and type the pairing code it shows. 启动本地接口后输入显示的配对码。</p>
+    <div class="grid"><div><label for="api">App address</label><input id="api"></div><div><label for="code">Pairing code · 配对码</label><input id="code" placeholder="ABCD-EFGH" autocomplete="off"></div></div>
+    <p><button id="test">Test connection · 测试连接</button></p>
+    <div id="result" class="muted"></div>
+  </div>
+
+  <h2>When to ask · 什么时候问</h2>
+  <select id="mode"><option value="always">Before every checkout · 每次结账前</option><option value="risky">Only when it looks risky · 只在有风险时</option></select>
+
+  <h2>Offline numbers (used when the app is not running) · 离线数字</h2>
+  <div class="box"><div class="grid">
+    <div><label for="currency">Currency</label><select id="currency"><option>CNY</option><option>EUR</option><option>USD</option><option>GBP</option></select></div>
+    <div><label for="leftUntilPayday">Money left until payday</label><input id="leftUntilPayday" type="number" min="0"></div>
+    <div><label for="payday">Payday (day of month)</label><input id="payday" type="number" min="1" max="28"></div>
+    <div><label for="income">Monthly net income</label><input id="income" type="number" min="0"></div>
+    <div><label for="hours">Working hours per month</label><input id="hours" type="number" min="1"></div>
+    <div><label for="goalName">Savings goal</label><input id="goalName"></div>
+    <div><label for="goalMonthly">Saving per month</label><input id="goalMonthly" type="number" min="0"></div>
+    <div><label for="nightThreshold">Night rule: hold purchases from</label><input id="nightThreshold" type="number" min="0"></div>
+    <div><label for="nightStart">Night starts</label><input id="nightStart" placeholder="23:00"></div>
+    <div><label for="nightEnd">Night ends</label><input id="nightEnd" placeholder="06:00"></div>
+  </div>
+  <label for="triggers">Trigger words (comma separated) · 触发词</label><input id="triggers"></div>
+
+  <p style="margin-top:22px"><button class="primary" id="save">Save · 保存</button> <span id="saved" class="ok"></span></p>
+</main><script src="options.js"></script></body>
+</html>

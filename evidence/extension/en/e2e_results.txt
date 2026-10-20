@@ -1,0 +1,9 @@
+extension loaded: aklnnecfnkdcflbkcgojnoilknhjjgln
+pairing: Connected · 已连接 – Mei Lin · CNY · ¥183 safe to spend today
+step 1: score 80, reasons 5: Late at night (23:50) +20 | Purchase number 3 within an hour +20 | Live-stream shopping +15 | 'clothing' is on your trigger list +15 | Paid in instalments / buy now pay later +10
+step 2: Safe to spend today ¥183→−¥616 | Until payday (2026-11-10, 21 days) ¥3,844→¥3,045 ¥145 a day instead of ¥183 | Your clothing cap this month · ¥2,000 ¥1,158→¥359 left | Japan trip pushes it back by 16 days
+park: Parked. Look at it again 21 Oct 11:50. ¥80 moved to Japan trip.
+buy anyway: checkout went through after the countdown
+popup: SECOND THOUGHT · 再想想 |  | ● Connected to the app · Mei Lin |  | Safe to spend today | ¥179 | Left until payday | ¥3,764 | Parked purchases | 1 |  | Checkout buttons on shopping sites now ask once more before you pay. |  | Settings and pairing
+offline: Offline: not connected to the app, using the numbers in the extension settings.
+audit: 3 entries via the extension, chain intact: True
