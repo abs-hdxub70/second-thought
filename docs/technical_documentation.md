@@ -2,6 +2,8 @@
 
 Oct 20, 2026
 
+Team: Alexander Schutz (Munich Business School) and Constantin Coblitz
+
 Second Thought is a personal finance assistant (FinTechathon 2026, International Track, Topic A) for people with impulsive or compulsive spending patterns. This document describes its architecture, core algorithms and security design as implemented in the submitted repository.
 
 ## 1. Overview and scope

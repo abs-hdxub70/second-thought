@@ -6,6 +6,8 @@ It does the Topic A jobs (budgeting, bill analysis, spending insights, recommend
 
 FinTechathon 2026, International Track, Topic A (Personal Finance Assistant).
 
+Team: Alexander Schutz (Munich Business School) and Constantin Coblitz.
+
 ## Quick start
 
 ```bash
